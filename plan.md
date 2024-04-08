@@ -57,7 +57,8 @@ This is a high-level design and can be further detailed based on specific requir
 ```
 Sure, here's a more detailed example of the AdminController with some basic logic implemented. This example uses Entity Framework Core for data access.
 
-```csharp
+```
+```
 using Microsoft.AspNetCore.Mvc;
 using OnlineRetailStore.Data;
 using OnlineRetailStore.Models;
@@ -176,10 +177,9 @@ namespace OnlineRetailStore.Controllers
     }
 }
 ```
-```
-Sure, here's how you might modify the AdminController to use asynchronous methods with ASP.NET Core and Entity Framework Core:
 
-```csharp
+
+```
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OnlineRetailStore.Data;
